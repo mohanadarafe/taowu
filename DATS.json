@@ -1,6 +1,6 @@
 {
   "title": "Parkinson's Disease Datasets",
-  "description": "The data are comprised of 27 PD patients and 16 age-matched normal controls in the Neurocon dataset, and 20 PD patients and 20 age-matched controls in the Tao Wu dataset. Both sets contain T1 and resting-state scans.",
+  "description": "The data are comprised of 20 PD patients and 20 age-matched controls which include both T1 and resting-state scans.",
   "creators": [
     {
       "name": "National Institute for Research and Development in Informatics",
@@ -15,7 +15,17 @@
   "types": [
     {
       "information": {
-        "value": "nii"
+        "value": "MRI"
+      }
+    },
+    {
+      "information": {
+        "value": "T1W"
+      }
+    },
+    {
+      "information": {
+        "value": "fMRI"
       }
     }
   ],
@@ -29,7 +39,8 @@
   "distributions": [
     {
       "formats": [
-        "NIfTI"
+        "NIfTI",
+        "BIDS"
       ],
       "size": 4.1,
       "unit": {
@@ -72,6 +83,18 @@
       }
     }
   ],
+  "isAbout": [
+    {
+      "name": "Homo sapiens",
+      "identifier": {
+        "identifier": "https://www.ncbi.nlm.nih.gov/taxonomy/9606",
+        "identifierSource": "NCBI Taxonomy Database"
+      }
+    },
+    {
+      "name": "Parkinson's disease"
+    }
+  ],
   "acknowledges": [
     {
       "name": "Grants",
@@ -89,6 +112,9 @@
     },
     {
       "value": "PD"
+    },
+    {
+      "value": "MRI"
     }
   ],
   "extraProperties": [
@@ -153,6 +179,22 @@
       "values": [
         {
           "value": "Tao Wu, wutao69@gmail.com"
+        }
+      ]
+    },
+    {
+      "category": "REB_statement",
+      "values": [
+        {
+          "value": "In submitting this dataset for inclusion, I certify that participants have consented to the de-identification and deposit of the data in an open-access portal."
+        }
+      ]
+    },
+    {
+      "category": "REB_number",
+      "values": [
+        {
+          "value": "N/A"
         }
       ]
     }
