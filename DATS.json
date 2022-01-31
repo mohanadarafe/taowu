@@ -181,22 +181,6 @@
           "value": "Tao Wu, wutao69@gmail.com"
         }
       ]
-    },
-    {
-      "category": "REB_statement",
-      "values": [
-        {
-          "value": "In submitting this dataset for inclusion, I certify that participants have consented to the de-identification and deposit of the data in an open-access portal."
-        }
-      ]
-    },
-    {
-      "category": "REB_number",
-      "values": [
-        {
-          "value": "N/A"
-        }
-      ]
     }
   ]
 }
